@@ -1,5 +1,5 @@
 # fcm_with_vue_java
-At first create your add your App in the Firebase Console.
+At first add your App in the Firebase Console.
 ### vue js
 for installing all the vue js dependency run
 
