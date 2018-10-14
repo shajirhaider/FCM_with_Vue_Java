@@ -1,0 +1,29 @@
+apply plugin: 'application'
+
+mainClassName = "net.celloscope.eureka.EurekaServerApplication"
+
+dependencies {
+	compile project(':service-base')
+}
+
+distZip {
+    into(project.name+"-"+project.version) {
+        from '.'
+    }
+}
+
+sourceSets {
+	main {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+	conf {
+        java {
+            srcDir 'src/dist/conf'
+        }
+    }
+}

@@ -1,0 +1,12 @@
+
+dependencies {
+	compile 'com.google.firebase:firebase-admin:6.5.0'
+}
+
+sourceSets {
+	main {
+        java {
+            srcDir "src/java"
+        }
+    }
+}

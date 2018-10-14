@@ -1,0 +1,27 @@
+
+subprojects {
+
+	apply plugin: 'maven'
+	apply plugin: 'java'
+  	apply plugin: 'eclipse'
+
+	sourceCompatibility = 1.8
+	targetCompatibility = 1.8
+
+	version = '0.1'
+  	group = "net.celloscope.eureka"
+
+	ext {
+
+	}
+
+	repositories {
+		mavenCentral()
+		jcenter()
+	}
+
+	jar {
+		manifest.attributes provider: 'gradle'
+	}
+
+}
