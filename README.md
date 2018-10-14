@@ -8,7 +8,7 @@ __npm install__
 then run the app with 
 __npm run serve__
 
-collect the __messangerID__ , __web config__ , and __publicVapid key__ from the firebase console of your app 
+collect the __messengerID__ , __web config__ , and __publicVapid key__ from the firebase console of your app 
 
 ### java
 
