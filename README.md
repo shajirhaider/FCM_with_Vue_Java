@@ -1,5 +1,5 @@
 # fcm_with_vue_java
-
+At first create your add your App in the Firebase Console.
 ### vue js
 for installing all the vue js dependency run
 
@@ -14,7 +14,7 @@ collect the __messengerID__ , __web config__ , and __publicVapid key__ from the 
 
 build the gradle 
 
-and use the __Instance ID__ from your client app as __registration token__
-give firebase database __firestore URL__ from firebase console
+use the __Instance ID__ from your client app as __registration token__, 
+give firebase database __firestore URL__ from firebase console, 
 specify the path of the __service account.json__ file
 
